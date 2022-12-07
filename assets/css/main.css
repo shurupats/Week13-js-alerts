@@ -1,9 +1,11 @@
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .container-button{
@@ -13,6 +15,7 @@
     border: 0.25rem solid #3498db;
     border-radius: 5px;
     padding: 10px 50px;
+    text-decoration: none;
 }
 
 .container-button:hover{
